@@ -8,6 +8,8 @@ It includes bit-packing, entropy metrics, histogramming, finite-context modeling
 ## 🔧 Build
 
 ```bash
+git clone https://github.com/cobilab/ox
+cd ox/src/
 make
 ```
 
