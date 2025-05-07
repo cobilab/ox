@@ -8,7 +8,7 @@ It includes bit-packing, entropy metrics, histogramming, finite-context modeling
 ## 🔧 Build
 
 ```bash
-gcc -Ofast -march=native -flto -ffast-math -fomit-frame-pointer -funroll-loops -o ox ox.c -lm
+make
 ```
 
 ---
