@@ -1,4 +1,4 @@
-# ox: A Compact C Toolkit for Sequence Compression and Analysis
+# ox: a compact toolkit for sequence data analysis
 
 `ox` is a modular command-line toolkit written in C for compressing, encoding, analyzing, and profiling symbolic sequences. 
 It includes bit-packing, entropy metrics, histogramming, finite-context modeling, and CRC-based hashing.
