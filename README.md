@@ -53,7 +53,7 @@ Bit-pack sequences using 2-bit (`ABCD`) or 4-bit (`A–P`) encodings.
 
 ### `xrc-256`
 
-Encode/decode packed files with a custom XRC-256 codec.
+Encode/decode sequences with a custom XRC-256 codec: order-0 followed by a Range Coder.
 
 ```bash
 ./ox xrc-256 encode <input> <output>
@@ -76,7 +76,7 @@ Compute Shannon entropy of binary input.
 
 ### `histogram`
 
-Analyze distribution of values in a file.
+Analyze distribution of values in a file (supports 8 and 16 bits).
 
 ```bash
 ./ox histogram [-h] [-t 8|16] [-w <width>] [-p] <filename>
